@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nail Salon | [Your Salon Name]</title>
+    <meta name="description" content="Book your appointment at [Your Salon Name], [City]. Professional nail services.">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="index.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="gallery">
+        <img src="images/nail design.jpg" alt="Image 1" onclick="openLightbox(this)">
+        <img src="images/nail design1.jpg" alt="Image 2" onclick="openLightbox(this)">
+        <img src="images/nail design2.jpg" alt="Image 3" onclick="openLightbox(this)">
+        <img src="images/nail design3.jpg" alt="Image 4" onclick="openLightbox(this)">
+        <img src="images/nail design4.jpg" alt="Image 5" onclick="openLightbox(this)">
+        <img src="images/nail design5.jpg" alt="Image 6" onclick="openLightbox(this)">
+        <img src="images/nail design6.jpg" alt="Image 7" onclick="openLightbox(this)">
+        <!-- Add more images -->
+      </div>
+      <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+        <img id="lightbox-img" src="">
+      </div>
+      <script src="functions.js"></script>
+
+    
+    <footer id="footer">
+        <p style="color: beige;">&copy; 2026 Hope Palace Beauty</p><br><br>
+    </footer>
+</body>
+</html>
